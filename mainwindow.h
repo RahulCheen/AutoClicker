@@ -17,7 +17,11 @@ public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void onStartButtonClicked(); // Slot to handle start/stop button clicks
+
 private:
     Ui::MainWindow *ui;
+    bool isRunning; // Flag for run state of program
 };
 #endif // MAINWINDOW_H
