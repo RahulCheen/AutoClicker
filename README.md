@@ -7,3 +7,7 @@ This project makes a basic autoclicker using the QT framework in C++
 - Invalid activation key/click speed input handling
 - Out of focus function
 - Cross platform function (currently only works on Windows OS)
+
+
+
+This project is just for fun. Don't use this autoclicker to break ToS for any games that don't allow their use.
